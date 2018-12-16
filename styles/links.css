@@ -1,0 +1,39 @@
+.link-nav
+{
+	padding: 8px 24px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.link-nav,
+.link-primary
+{
+	color: var(--white);
+}
+
+.link-nav:hover,
+.link-primary:hover
+{
+	color: var(--accent-primary);
+}
+
+.links > .link-secondary
+{
+	display: block;
+}
+
+.link-secondary
+{
+	margin-bottom: 8px;
+	color: var(--white);
+}
+
+.link-secondary:last-of-type
+{
+	margin-bottom: 16px;
+}
+
+.link-secondary:hover
+{
+	color: var(--black);
+}
