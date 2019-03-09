@@ -1,0 +1,68 @@
+.header
+{
+	height: 200px;
+	margin-top: 36px;
+}
+
+.logo
+{
+	max-width: 150px;
+}
+
+.page-header
+{
+	margin-bottom: 32px;
+}
+
+.event-wrapper
+{
+	display: flex;
+}
+
+.event-image
+{
+	display: none;
+}
+
+.event-details
+{
+	margin-bottom: 8px;
+}
+
+.event-details > h3
+{
+	margin: 8px 0;
+}
+
+.event-details > p
+{
+	margin: 0;
+}
+
+.event-details > a
+{
+	display: block;
+	margin: 8px 0 0;
+	color: var(--white);
+}
+
+.event-details > a:hover
+{
+	color: var(--black);
+}
+
+@media only screen and (min-width: 768px)
+{
+	.header
+	{
+		height: 350px;
+	}
+
+	.event-image
+	{
+		display: block;
+		max-width: 200px;
+		max-height: 200px;
+		margin-right: 16px;
+	}
+}

@@ -46,3 +46,85 @@ p
 {
 	line-height: 1.35;
 }
+
+.text-left
+{
+	text-align: left;
+}
+
+.mb16
+{
+	margin-bottom: 16px;
+}
+
+.mb32
+{
+	margin-bottom: 32px;
+}
+
+.nav
+{
+	position: fixed;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	border-bottom: 1px solid var(--accent-primary);
+	background: var(--black);
+	z-index: 2;
+}
+
+.nav > .nav-list
+{
+	margin: 0;
+	padding: 8px;
+}
+
+.nav > .nav-list > .nav-list-item
+{
+	display: inline;
+	font-size: 14px;
+}
+
+.header
+{
+	background-image: url('../images/hero.jpg');
+	background-size: cover;
+}
+
+.header-wrapper
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	background: rgba(0,0,0,0.65);
+}
+
+.logo
+{
+	margin: 0 32px;
+}
+
+.bg-accent-primary
+{
+	background: var(--accent-primary);
+}
+
+.section-header
+{
+	color: var(--accent-primary);
+}
+
+@media only screen and (min-width: 768px)
+{
+	.mb16
+	{
+		margin-bottom: 32px;
+	}
+
+	.mb32
+	{
+		margin-bottom: 16px;
+	}
+}
