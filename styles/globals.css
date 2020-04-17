@@ -1,6 +1,6 @@
 body
 {
-	--blue: pink;
+	--blue: #26C0ED;
 	--white: #FFFFFF;
 	--black: #141414;
 	--accent-primary: var(--blue);
